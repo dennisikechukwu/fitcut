@@ -20,8 +20,8 @@ export default function ProfileCard() {
         <div>
           {/* Name + Role */}
           <div className="mb-4">
-            <h2 className="text-xl font-semibold">Issac Chukwumeze</h2>
-            <p className="text-gray-500">Teacher</p>
+            <h2 className="text-xl font-semibold">Isaac Chukwumeze</h2>
+            <p className="text-gray-500">Fitness Coach</p>
           </div>
 
           {/* Card Sections */}
