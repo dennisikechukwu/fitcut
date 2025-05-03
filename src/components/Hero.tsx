@@ -20,7 +20,7 @@ const Hero = () => {
         <p className="mt-4 max-w-xl text-md md:text-lg">
           Personalized training and nutrition support at unbeatable prices. Your fitness journey starts here!
         </p>
-        <button className="mt-6 px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-full text-lg font-medium transition">
+        <button className="mt-6 px-6 py-3 bg-green-400 hover:bg-green-600 text-white rounded-full text-lg font-medium transition">
           Get Started
         </button>
       </div>

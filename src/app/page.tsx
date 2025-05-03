@@ -4,6 +4,7 @@ import Fitness from "@/components/Fitness"
 import ProfileCard from "@/components/Profile"
 import Daily from "@/components/Daily"
 import ImageGrid from "@/components/Image"
+import PricingSection from "@/components/Price"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ProfileCard/>
       <Daily/>
       <ImageGrid/>
+      <PricingSection/>
       
       
     </div>
