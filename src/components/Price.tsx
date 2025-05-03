@@ -6,34 +6,19 @@ export default function PricingSection() {
             <p className='text-center text-gray-400'>Personalized training plans, expert guidance, and accountability   <br className='hidden md:block'/>at a price you’ll love.</p>
         </div>
   
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid  max-w-[640px] mx-auto">
           {[
             {
               label: "PRO",
               price: "$20",
-              subtext: "Renews at $40/month after trial",
+              
               features: [
-                "Personalized weekly workouts",
-                "Direct messaging with your coach",
-                "Flexible scheduling to fit your life",
-                "Trackable progress and analytics",
-                "Daily motivational check-ins",
-                "Cancel or pause anytime",
+                "Get the most out of your fitness journey with personalized weekly workouts tailored to your goals. Stay connected through direct messaging with your coach for support and guidance whenever you need it. Enjoy flexible scheduling that fits seamlessly into your lifestyle, while tracking your progress with detailed analytics. Stay motivated with daily check-ins designed to keep you on track. Plus, you can cancel or pause your plan anytime—no strings attached."
+
+                
               ],
-            },
-            {
-              label: "ULTRA",
-              price: "$40",
-              subtext: "Renews at $80/month after trial",
-              features: [
-                "Fully customized fitness & nutrition plans",
-                "Unlimited video calls with your coach",
-                "Priority access to top-tier trainers",
-                "In-depth progress tracking & reports",
-                "Mental wellness & recovery sessions",
-                "Cancel or pause anytime",
-              ],
-            },
+            }
+           
           ].map((plan, i) => (
             <div
               key={i}
@@ -49,11 +34,10 @@ export default function PricingSection() {
                     : "Unlock your full potential for just"}
                 </h3>
                 <p className="text-4xl font-bold mb-1">{plan.price}</p>
-                <p className="text-sm text-gray-800 mb-4">{plan.subtext}</p>
   
                 <ul className="text-sm space-y-2">
                   {plan.features.map((feature, idx) => (
-                    <li key={idx}>+ {feature}</li>
+                    <li key={idx}>{feature}</li>
                   ))}
                 </ul>
               </div>
