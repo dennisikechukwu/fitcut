@@ -20,12 +20,12 @@ const Nav = () => {
       <div className='py-3 px-9 rounded-r-3xl rounded-l-3xl shadow-md bg-transparent backdrop-blur-md'>
         <div className='flex gap-5'>
           <Link href="/">
-            <h1 className="text-2xl text-gray-300 font-semibold tracking-widest font-sans cursor-pointer">
+            <h1 className="text-2xl text-green-400 font-extrabold tracking-widest font-sans cursor-pointer">
               FITCUT
             </h1>
           </Link>
           <button onClick={() => setOpen(!open)}>
-            {open ? <X size={25} className='text-gray-300' /> : <Menu size={25} className='text-gray-300' />}
+            {open ? <X size={25} className='text-green-400 font-extrabold' /> : <Menu size={25} className='text-green-400' />}
           </button>
         </div>
 
@@ -37,10 +37,10 @@ const Nav = () => {
                   <Link
                     href={href}
                     onClick={handleNavClose}
-                    className="flex justify-between items-center text-gray-300 font-medium"
+                    className="flex justify-between items-center text-green-400 font-medium"
                   >
                     {label}
-                    <ArrowUpRight size={16} className="text-gray-300" />
+                    <ArrowUpRight size={16} className="text-green-400" />
                   </Link>
                 </li>
               ))}

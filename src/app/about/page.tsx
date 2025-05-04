@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '@/components/Nav'
+import VideoPlayer from '@/components/player'
 
 
 const page = () => {
@@ -15,7 +16,17 @@ const page = () => {
         </p>
       </div>
     </div>
-    <div>About</div>
+    <div className='py-10  mt-6 bg-[#cad8d8]'>
+    <div className='space-y-2 mb-12'>
+            <h1 className='text-center text-[30px] md:text-4xl font-semibold text-white'>Innovation That  <br className='hidden md:block'/> Transforms Journey. </h1>
+            <p className='text-center text-gray-400 '>Blending expertise with technology, our platform tailors workouts   <br className='hidden md:block'/>to your needs, ensuring smarter, faster, and sustainable results.</p>
+            <VideoPlayer/>
+        </div>
+        
+
+  
+    </div>
+    
     </section>
   )
 }
