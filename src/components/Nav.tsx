@@ -18,7 +18,7 @@ const Nav = () => {
     <section className='flex justify-center'>
     <nav className="fixed mt-7   items-center top-0 z-50">
       <div className='py-3 px-9 rounded-r-3xl rounded-l-3xl shadow-md bg-transparent backdrop-blur-md'>
-        <div className='flex gap-5'>
+        <div className='flex gap-7'>
           <Link href="/">
             <h1 className="text-2xl text-green-400 font-extrabold tracking-widest font-sans cursor-pointer">
               FITCUT

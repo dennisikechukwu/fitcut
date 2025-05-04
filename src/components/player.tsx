@@ -12,7 +12,7 @@ const VideoPlayer = () => {
       <video
         ref={videoRef}
         src="/video/objective.mp4"
-        className="w-full max-w-2xl h-[65vh] md:h-[90vh]  rounded-lg shadow-md object-cover"
+        className="w-full max-w-6xl h-[65vh] md:h-[90vh]  rounded-lg shadow-md object-cover"
         controls
       />
 
