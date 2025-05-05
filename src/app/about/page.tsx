@@ -17,8 +17,8 @@ const page = () => {
         </p>
       </div>
     </div>
-    <div className='py-10  mt-6 bg-[#cad8d8]'>
-    <div className='space-y-2 mb-12'>
+    <div className='py-10  mt-6 bg-[#cad8d8] flex justify-center'>
+    <div className='space-y-2 mb-12 max-w-5xl '>
             <h1 className='text-center text-[30px] md:text-4xl font-semibold text-white'>Innovation That  <br className='hidden md:block'/> Transforms Journey. </h1>
             <p className='text-center text-gray-400 '>Blending expertise with technology, our platform tailors workouts   <br className='hidden md:block'/>to your needs, ensuring smarter, faster, and sustainable results.</p>
             <VideoPlayer/>
@@ -26,6 +26,15 @@ const page = () => {
         
 
   
+    </div>
+    <div className='mt-4 bg-green-400 lg:py-10 py-5 lg:px-9 px-3 flex justify-between max-md:flex-col max-md:justify-center items-center'>
+      <div className='space-y-3'>
+          <h1 className='lg:text-5xl text-3xl'>Ready to Dive In?</h1>
+          <p className='font-md'>Kickstart your experience with intelligent support.</p>
+      </div>
+      <a href="mailto:isaacchukwumeze10@gmail.com" className="block ">
+      <button className=' px-5 py-3 bg-black/55  border-black border-2 hover:bg-green-400 text-white rounded-full text-lg font-medium transition'>CONTACT ME</button>
+      </a>
     </div>
     
     </section>

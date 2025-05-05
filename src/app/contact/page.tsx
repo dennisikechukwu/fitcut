@@ -3,7 +3,7 @@
 import React from 'react'
 import Nav from '@/components/Nav'
 
-import { Mail, Phone } from 'lucide-react';
+import { Mail, Phone, Instagram } from 'lucide-react';
 
 const coach = () => {
   return (
@@ -23,7 +23,7 @@ const coach = () => {
         <div>
           <h2 className="text-3xl font-semibold mb-4">Questions?</h2>
           <p className="text-gray-600 mb-6">
-            We know starting something new can raise questions. That is why we have answered the important ones for you right here.
+            We know starting something new can raise questions. That is why we have answered the important ones for you right here so if you have any questions you can contact us here.
           </p>
 
           <div className="space-y-4">
@@ -36,12 +36,23 @@ const coach = () => {
             </div>
             </a>
 
+            <a href="tel:+2348102993145" className="block">
+           <div className="flex items-center gap-3 cursor-pointer">
+            <div className="bg-gray-100 p-2 rounded-md">
+           <Phone className="h-5 w-5 text-gray-800" />
+            </div>
+            <span className="text-gray-800">+234 8102993145</span>
+        </div>
+            </a>
+            
+            <a href="https://www.instagram.com/isaacchukwumeze10?utm_source=qr&igsh=OXNhaGIzcm1rM252" className="block">
             <div className="flex items-center gap-3">
               <div className="bg-gray-100 p-2 rounded-md">
-                <Phone className="h-5 w-5 text-gray-800" />
+                <Instagram className="h-5 w-5 text-gray-800" />
               </div>
-              <span className="text-gray-800">+91 9730627087</span>
+              <span className="text-gray-800">@isaacchukwumeze10</span>
             </div>
+            </a>
           </div>
         </div>
 
@@ -96,7 +107,9 @@ const coach = () => {
           <h1 className='lg:text-5xl text-3xl'>Ready to Dive In?</h1>
           <p className='font-md'>Kickstart your experience with intelligent support.</p>
       </div>
+      <a href="mailto:isaacchukwumeze10@gmail.com" className="block ">
       <button className=' px-5 py-3 bg-black/55  border-black border-2 hover:bg-green-400 text-white rounded-full text-lg font-medium transition'>CONTACT ME</button>
+      </a>
     </div>
       
       </section>

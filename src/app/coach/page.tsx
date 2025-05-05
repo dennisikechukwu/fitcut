@@ -11,8 +11,7 @@ const coach = () => {
       <div className="absolute inset-0 bg-black/50 rounded-xl bg-opacity-50 flex flex-col items-center justify-center text-white text-center px-4 ">
         <h1 className="text-4xl md:text-5xl font-semibold mb-4">Training Master</h1>
         <p className="text-md md:text-lg max-w-xl text-gray-400">
-        Our elite coache bring years of experience, cutting-edge science, and 
-        proven strategies together, and achieve lasting success.
+        Our elite coach has a passion for ensuring people live a better and more effective life through fitness.
         </p>
       </div>
     </div>
@@ -37,7 +36,7 @@ const coach = () => {
     <Droplet className="w-4 h-4 text-gray-600" /> Motivating
   </li>
 </ul>
-  <p>Isaac is a  soccer player and a certified fitness <br/>coach. He offers classes focused on stress and fat reduction.</p>
+  <p>Isaac is a  soccer player and a certified fitness <br/>coach. He offers session plans focused <br className='hidden max-md:block'/> on weight<br className='hidden md:block'/> loss and fitness development.</p>
         </div>
 
     </div>
@@ -46,7 +45,9 @@ const coach = () => {
           <h1 className='lg:text-5xl text-3xl'>Ready to Dive In?</h1>
           <p className='font-md'>Kickstart your experience with intelligent support.</p>
       </div>
+      <a href="mailto:isaacchukwumeze10@gmail.com" className="block ">
       <button className=' px-5 py-3 bg-black/55  border-black border-2 hover:bg-green-400 text-white rounded-full text-lg font-medium transition'>CONTACT ME</button>
+      </a>
     </div>
       </section>
   )

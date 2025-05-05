@@ -13,7 +13,7 @@ export default function PricingSection() {
               price: "$20",
               
               features: [
-                "Get the most out of your fitness journey with personalized weekly workouts tailored to your goals. Stay connected through direct messaging with your coach for support and guidance whenever you need it. Enjoy flexible scheduling that fits seamlessly into your lifestyle, while tracking your progress with detailed analytics. Stay motivated with daily check-ins designed to keep you on track. Plus, you can cancel or pause your plan anytime—no strings attached."
+                "Get the most out of your fitness journey with personalized weekly workouts tailored to your goals. Stay connected through direct messaging with your coach for support and guidance whenever you need it. Enjoy flexible scheduling that fits seamlessly into your lifestyle, while tracking your progress with detailed analytics. Stay motivated with daily check-ins designed to keep you on track."
 
                 
               ],
@@ -41,10 +41,13 @@ export default function PricingSection() {
                   ))}
                 </ul>
               </div>
-  
-              <button className="bg-black text-white font-semibold rounded-full py-3 mt-6 hover">
+             
+                
+              <a href="mailto:isaacchukwumeze10@gmail.com" className="bg-black text-white text-center font-semibold rounded-full py-3 mt-6 hover">
                 Get Started for {plan.price}
-              </button>
+              </a>
+             
+            
             </div>
           ))}
         </div>
