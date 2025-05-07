@@ -27,7 +27,7 @@ const page = () => {
 
   
     </div>
-    <div className='mt-4 bg-green-400 lg:py-10 py-5 lg:px-9 px-3 flex justify-between max-md:flex-col max-md:justify-center items-center'>
+    <div className='mt-4 bg-green-400 lg:py-10 py-5 lg:px-9 px-3 flex justify-between max-md:flex-col max-md:justify-center items-center gap-4'>
       <div className='space-y-3'>
           <h1 className='lg:text-5xl text-3xl'>Ready to Dive In?</h1>
           <p className='font-md'>Kickstart your experience with intelligent support.</p>
